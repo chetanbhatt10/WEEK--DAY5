@@ -1,0 +1,5 @@
+a=int(input("1st term of G.P is : "))
+n=int(input("NUMBER OF TERMS OF G.P is : "))
+r=int(input("common ratio of G.P is : "))
+sum=(a*pow(r,n)-1)/(r-1)
+print("SUM OF G.P is : ",sum)

@@ -1,0 +1,5 @@
+tu=("abc","def","ghi","jkl")
+b=list(tu)
+b.append("mno")
+tu=tuple(b)
+print(b)
